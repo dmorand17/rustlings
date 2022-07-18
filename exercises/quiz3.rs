@@ -1,11 +1,18 @@
 // quiz3.rs
-// This is a quiz for the following sections:
-// - Tests
+// This quiz tests:
+// - Generics
+// - Traits
+// An imaginary magical school has a new report card generation system written in Rust!
+// Currently the system only supports creating report cards where the student's grade
+// is represented numerically (e.g. 1.0 -> 5.5).
+// However, the school also issues alphabetical grades (A+ -> F-) and needs
+// to be able to print both types of report card!
 
-// This quiz isn't testing our function -- make it do that in such a way that
-// the test passes. Then write a second test that tests that we get the result
-// we expect to get when we call `times_two` with a negative number.
-// No hints, you can do this :)
+// Make the necessary code changes in the struct ReportCard and the impl block
+// to support alphabetical report cards. Change the Grade in the second test to "A+"
+// to show that your changes allow alphabetical grades.
+
+// Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
 
 pub fn times_two(num: i32) -> i32 {
     num * 2

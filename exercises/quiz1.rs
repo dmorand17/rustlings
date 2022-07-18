@@ -2,6 +2,7 @@
 // This is a quiz for the following sections:
 // - Variables
 // - Functions
+// - If
 
 // Mary is buying apples. One apple usually costs 2 Rustbucks, but if you buy
 // more than 40 at once, each apple only costs 1! Write a function that calculates
@@ -19,9 +20,9 @@ fn calculate_apple_price(apples: i32) -> i32 {
 // Don't modify this function!
 #[test]
 fn verify_test() {
-    let price1 = calculate_apple_price(35);
-    let price2 = calculate_apple_price(40);
-    let price3 = calculate_apple_price(65);
+    let price1 = calculate_price_of_apples(35);
+    let price2 = calculate_price_of_apples(40);
+    let price3 = calculate_price_of_apples(65);
 
     assert_eq!(70, price1);
     assert_eq!(80, price2);

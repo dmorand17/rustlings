@@ -1,6 +1,6 @@
 // move_semantics2.rs
-// Make me compile without changing line 13!
-// Execute `rustlings hint move_semantics2` for hints :)
+// Make me compile without changing line 13 or moving line 10!
+// Execute `rustlings hint move_semantics2` or use the `hint` watch subcommand for a hint.
 
 // Hints
 // 1. Make another, separate version of the data that's in `vec0` and pass that
